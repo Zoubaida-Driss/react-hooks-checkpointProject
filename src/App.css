@@ -1,5 +1,35 @@
+
+body {
+
+  align-items: center;
+ 
+}
+
 .App {
   text-align: center;
+  padding-top: 40px;
+  background-color: #282c34;
+  
+}
+.movie {
+  background-color: rgba(22, 19, 52, 0.603);
+ width: 50%;
+  display:inline-block;
+  justify-content: center;
+  padding: 30px;
+  /* margin-right: 40px; */
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+img {
+  width: 250px;
+  height: 350px;
+}
+.button{
+  width:50px;
+  height: 25px;
+  background-color:rgb(236, 122, 131);
 }
 
 .App-logo {

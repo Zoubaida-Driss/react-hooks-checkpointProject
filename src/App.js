@@ -1,23 +1,39 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { list } from './data';
+import { useState } from 'react';
+import { MovieList } from './components/MovieList';
+import FilterTitRat from './components/FilterTitRat';
+
 function App() {
+  
+const [data, setData] = useState(list)
+
+const [titleFilter, setTitleFilter] = useState("")
+const [rateFilter, setRateFilter] = useState(0)
+
+//add movie
+const AddMovie=(x)=>{
+setData([...data, x])
+// setData(data.push(x))
+}
+//filterTitle
+const handleTitleFilter=(x)=>{
+  setTitleFilter(x)
+}
+
+//filterTitle
+const handleRateFilter=(x)=>{
+  setRateFilter(x)
+}
+
+
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FilterTitRat titleFilter={titleFilter} rateFilter={rateFilter}  handleTitleFilter={handleTitleFilter} handleRateFilter={handleRateFilter}/>
+      <MovieList  list={data.filter(el=>el.title.toLocaleLowerCase().includes(titleFilter.toLocaleLowerCase())&&el.rating>=rateFilter)} addmovie={AddMovie}/>
     </div>
   );
 }
