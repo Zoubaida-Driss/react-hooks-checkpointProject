@@ -6,7 +6,9 @@ export const list = [
         year: 1938,
         type: 'animation',
         rating: 2,
-        url: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1NDA0MTk5OV5BMl5BanBnXkFtZTcwMTM4NDMwNw@@._V1_SX300.jpg'
+        url: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1NDA0MTk5OV5BMl5BanBnXkFtZTcwMTM4NDMwNw@@._V1_SX300.jpg',
+        description:"Exiled into the dangerous forest by her wicked stepmother, a princess is rescued by seven dwarf miners who make her part of their household.",
+        trailerLink:"https://www.youtube.com/embed/F9cBVm9gtKU",
     },
     {
         id: 2,
@@ -15,7 +17,9 @@ export const list = [
         year: 2021,
         type: 'action',
         rating: 3,
-        url: 'https://m.media-amazon.com/images/M/MV5BNmM2MWQ0NzktNzU0OS00MjYzLTkxNDYtMzliNTA5ZmNkMmZlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg'
+        url: 'https://m.media-amazon.com/images/M/MV5BNmM2MWQ0NzktNzU0OS00MjYzLTkxNDYtMzliNTA5ZmNkMmZlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg',
+        description:"Dans le futur, un pilote de drone est déployé dans une zone militarisée meurtrière où il va travailler pour un officier androïde d'empêcher une attaque nucléaire.",
+        trailerLink:"https://www.youtube.com/embed/u8ZsUivELbs",
     },
     {
         id: 3,
@@ -24,7 +28,9 @@ export const list = [
         year: 2020,
         type: 'adventure',
         rating: 4,
-        url: 'https://m.media-amazon.com/images/M/MV5BNDliY2E1MjUtNzZkOS00MzJlLTgyOGEtZDg4MTI1NzZkMTBhXkEyXkFqcGdeQXVyNjMwMzc3MjE@._V1_SX300.jpg'
+        url: 'https://m.media-amazon.com/images/M/MV5BNDliY2E1MjUtNzZkOS00MzJlLTgyOGEtZDg4MTI1NzZkMTBhXkEyXkFqcGdeQXVyNjMwMzc3MjE@._V1_SX300.jpg',
+        description:"To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process.",
+        trailerLink:"https://www.youtube.com/embed/sEQjLQA9qW4",
     },
     {
         id: 4,
@@ -33,7 +39,9 @@ export const list = [
         year: 2019,
         type: 'Animation',
         rating: 5,
-        url: 'https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_SX300.jpg'
+        url: 'https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_SX300.jpg',
+        description:"It follows a pianist, Joe Gardner (Foxx), who is involved in an accident before his big break as a jazz musician and seeks to reunite his separated soul and body",
+        trailerLink:"https://www.youtube.com/embed/xOsLIiBStEs",
     }
 
 ]

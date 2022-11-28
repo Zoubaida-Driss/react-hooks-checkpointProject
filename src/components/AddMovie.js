@@ -62,6 +62,8 @@ const handleSubmit=()=>{
       <input type="text"  value={director} onChange={e=>setDirector(e.target.value)}/>
       <label>Type</label>
       <input type="text"  value={type} onChange={e=>setType(e.target.value)}/>
+      <label>Image</label>
+      <input type="text"  value={url} onChange={e=>setUrl(e.target.value)}/>
       <label>Date</label>
       <input type="date" value={year} onChange={e=>setYear(e.target.value)}/>
       <Stars />

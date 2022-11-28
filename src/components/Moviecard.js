@@ -2,10 +2,12 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Stars from './Stars';
+import { Link } from 'react-router-dom';
 const Moviecard = ({movie}) => {
-    console.log(movie)
+    console.log(movie.rating)
   return (
 
  <div  >
@@ -31,6 +33,7 @@ const Moviecard = ({movie}) => {
               
               </Card.Text>
               <Stars rating={movie.rating}></Stars>
+             <Link to={`/info/${movie.id}`}><Button  variant="primary" > Info </Button></Link> 
             </Card.Body>
           </Card>
         </Col>

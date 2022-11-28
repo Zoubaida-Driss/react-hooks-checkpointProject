@@ -4,12 +4,26 @@ body {
   align-items: center;
  
 }
+ul,li{
+  display: flex;
+  justify-content: space-around;
+  background-color: peru;
+  
+}
 
 .App {
   text-align: center;
-  padding-top: 40px;
+ 
   background-color: #282c34;
   
+}
+.container{
+
+  display:inline-block;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  border-radius: 30px;
 }
 .movie {
   background-color: rgba(22, 19, 52, 0.603);
